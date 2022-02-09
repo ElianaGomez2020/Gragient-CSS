@@ -1,43 +1,12 @@
-*{
-  /* height: 100vh;
-  width: 100vw; */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* background: linear-gradient(to bottom right, red, blue ); */
-}
-
-.options{
-  color: gray;
-  margin-top: 23px;
-  font-size: 1.2rem;
-  font-weight: bolder;
-  line-height: 2.75rem;
-  border: 1px solid peru;
-}
-.buttoms{
-  height: 10%;
-  float: left;
-}
-.buttom{
+.content{
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  /* justify-content: space-between; */
-  cursor: pointer;
-}
-.buttom a{
-  border: 2px solid gray;
-  border-radius: 6px;
-  color: rgb(75, 72, 72);
-  margin-left: 8px;
-  font-size: 1rem;
-  width: 80px;
-  height: 25px;
-  text-align: center;
-  font-weight: bold;
-}
-.buttom a:hover{
-  background-color: rgb(180, 175, 175);
+  justify-content: space-between;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu{
-  border: 2px red solid;
+  padding: 40px 40px 20px 20px;
   display:flex;
   flex-direction: column;
   align-content: flex-start;
@@ -45,28 +14,43 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 30%;
-  height: 100%;
+  width: 22vw;
+  height: 100vh;
   background: #fff;
-  /* z-index: 100; */
   overflow-y: auto;
 }
 
 h1 {
-  border: 1px solid yellow;
-  color: grey;
-  font-size: 2rem;
+  color: #3d4853;
+  font-size: 1.5rem;
   line-height: 2.75rem;
-  
+}
 
+.direction{
+  margin-top: 15px;
+}
+
+.options{
+  color: #3d4853;;
+  margin-top: 23px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  line-height: 2.75rem;
+}
+
+.colors-picked{
+  margin-top: 20%;
+  color: #3d4853;;
+  margin-top: 23px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2.75rem;
 }
 
 .gradient{
-  border: 3px solid slateblue;
   position: relative;
   top: 0;
   bottom: 0;
-  width: 70%;
-  height: 100%; 
-  /* z-index: 50; */
+  width: 78vw;
+  height: 100vh; 
 }

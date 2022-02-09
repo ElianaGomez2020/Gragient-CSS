@@ -1,0 +1,21 @@
+.section-colors {
+    position:inherit; 
+  }
+  .button-colors{
+    background-color: #fff;
+    border: 2px solid  #f1f4f8;
+    border-radius: 6px;
+    color: #3d4853;
+    margin-left: 27px;
+    margin-top: 15px;
+    padding: 5px 5px 30px 5px;
+    font-size: .8125rem;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+  .button-colors:hover{
+    background-color: #f1f4f8;
+  }
