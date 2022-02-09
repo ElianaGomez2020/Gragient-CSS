@@ -3,12 +3,12 @@
 CSS gradients let you display smooth transitions between two or more specified colors.
 
 CSS Generator paints two types of gradients:
-## Linear Gradients (goes down/up/left/right/diagonally)
-## Radial Gradients (defined by their center)
+#### Linear Gradients (goes down/up/left/right/diagonally)
+#### Radial Gradients (defined by their center)
 
 ## Clone the project : 
 
-      git clone https://github.com/ElianaGomez2020/Gragient-CSS.git
+### `git clone https://github.com/ElianaGomez2020/Gragient-CSS.git`
       
  
 Next you need to make sure you have node.js installed.
