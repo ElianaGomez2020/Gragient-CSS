@@ -11,11 +11,11 @@ CSS Generator paints two types of gradients:
 ### `git clone https://github.com/ElianaGomez2020/Gragient-CSS.git`
       
  
-Next you need to make sure you have node.js installed.
+Next you need to be sure you have node.js installed.
 
-If you don't already have it, go install it: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+If you don’t have it yet, you can install it using the next link: [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-If you already have it, continue installing the packages running in your terminal, in the project folder:
+If you already have it, continue installing the packages running in your terminal located in the project folder  the next command:
 
 ### `npm install`
 
