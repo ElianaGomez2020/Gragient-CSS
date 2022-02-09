@@ -39,8 +39,10 @@ export default function App() {
         <span className="options">Colors</span>
 
         <Colors
-          color1={setColor1}
-          color2={setColor2}
+          setColor1={setColor1}
+          setColor2={setColor2}
+          color1={color1}
+          color2={color2}
           toggleColor1={togglePaletaColor1}
           toggleColor2={togglePaletaColor2}
           showColorPicker1={showColorPicker1}
@@ -48,9 +50,9 @@ export default function App() {
         />
 
         <div className="colors-picked">
-          <span> You picked : {color1}</span>
+          <span style={{ color: `${color1}` }}> You picked : {color1}</span>
           <br></br>
-          <span> You picked : {color2}</span>
+          <span style={{ color: `${color2}` }}> You picked : {color2}</span>
         </div>
       </div>
       <div

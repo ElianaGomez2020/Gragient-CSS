@@ -1,13 +1,18 @@
-.content{
+:root {
+  --font-color: #3d4853;
+  --background-color :#f1f4f8;
+}
+.content {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
-.menu{
+.menu {
   padding: 40px 40px 20px 20px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-content: flex-start;
   position: relative;
@@ -16,41 +21,47 @@
   bottom: 0;
   width: 22vw;
   height: 100vh;
-  background: #fff;
+  background: #ffff;
   overflow-y: auto;
 }
 
 h1 {
-  color: #3d4853;
-  font-size: 1.5rem;
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 1.9rem;
   line-height: 2.75rem;
 }
+@media screen and(max-width: 575px) {
+  .h1 {
+    font-size: 1.9rem; 
+}}
 
-.direction{
+.direction {
   margin-top: 15px;
 }
 
-.options{
-  color: #3d4853;;
-  margin-top: 23px;
+.options {
+  color: var(--font-color);
+  margin-top: 20%;
   font-size: 1.2rem;
   font-weight: bolder;
   line-height: 2.75rem;
 }
 
-.colors-picked{
+.colors-picked {
   margin-top: 20%;
-  color: #3d4853;;
-  margin-top: 23px;
+  margin-left: 28px;
+  color: var(--font-color);
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 2.75rem;
 }
 
-.gradient{
+
+.gradient {
   position: relative;
   top: 0;
   bottom: 0;
   width: 78vw;
-  height: 100vh; 
+  height: 100vh;
 }

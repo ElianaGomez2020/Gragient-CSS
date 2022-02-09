@@ -5,7 +5,7 @@
 .buttom a{
   border: 2px solid  #f1f4f8;
   border-radius: 6px;
-  color: #3d4853;
+  color: var(--font-color);
   margin-left: 27px;
   margin-top: 15px;
   padding: 5px 5px 30px 5px;
