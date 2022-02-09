@@ -1,6 +1,6 @@
 :root {
   --font-color: #3d4853;
-  --background-color :#f1f4f8;
+  --background-color: #f1f4f8;
 }
 .content {
   width: 100vw;
@@ -25,10 +25,9 @@
   overflow-y: auto;
 }
 @media (max-width: 768px) {
-  .menu{
-    width: 17rem;; 
+  .menu {
+    width: 17rem;
   }
-
 }
 
 h1 {
@@ -39,9 +38,8 @@ h1 {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
-
 }
 
 .direction {
@@ -65,7 +63,6 @@ h1 {
   line-height: 2.75rem;
 }
 
-
 .gradient {
   position: relative;
   top: 0;
@@ -77,5 +74,4 @@ h1 {
   .gradient {
     width: 90%;
   }
-
 }

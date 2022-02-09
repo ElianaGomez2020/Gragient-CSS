@@ -5,8 +5,8 @@ import { useState } from "react";
 import { Colors } from "./components/colors/Colors";
 
 export default function App() {
-  const [color1, setColor1] = useState("pink");
-  const [color2, setColor2] = useState("white");
+  const [color1, setColor1] = useState("#dfa0ab");
+  const [color2, setColor2] = useState("#ebc9c9");
   const [showColorPicker1, setShowColorPicker1] = useState(false);
   const [showColorPicker2, setShowColorPicker2] = useState(false);
   const [type, setType] = useState("linear-gradient");
@@ -33,7 +33,7 @@ export default function App() {
         <span className="options">Direction</span>
 
         <div className="direction">
-          <Direction direccion={setDirection} type={type} />
+          <Direction direction={setDirection} type={type} />
         </div>
 
         <span className="options">Colors</span>
