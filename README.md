@@ -28,3 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## important!
+In the color boxes, after having selected it in the color palette, to close it you must click on the color box.
