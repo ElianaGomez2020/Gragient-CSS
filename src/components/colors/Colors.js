@@ -7,6 +7,9 @@ export const Colors = (props) => {
     <div className="section-colors">
       <button class="button-colors" style={{backgroundColor:`${props.color1}`}}
        onClick={props.toggleColor1}>
+          {props.showColorPicker1 && (
+            'OK'
+        )}
       </button>
 
       {props.showColorPicker1 && (
@@ -18,6 +21,9 @@ export const Colors = (props) => {
 
       <button className=" button-colors" style={{backgroundColor:`${props.color2}`}}
         onClick={props.toggleColor2}>
+          {props.showColorPicker2 && (
+            'OK'
+        )}
       </button>
 
       {props.showColorPicker2 && (

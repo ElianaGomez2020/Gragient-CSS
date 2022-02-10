@@ -14,6 +14,8 @@
     text-align: center;
     font-weight: 500;
     line-height: 1.75rem;
+    -webkit-text-stroke: 1px var(--font-color);
+    color: transparent; 
   }
   .button-colors:hover{
     background-color: var(--background-color);
