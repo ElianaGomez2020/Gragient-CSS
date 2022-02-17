@@ -17,7 +17,8 @@ If you don’t have it yet, you can install it using the next link: [https://nod
 
 If you already have it, continue installing the packages running in your terminal located in the project folder  the next command:
 
-### `npm install`
+### `npm install` or
+### `npm yarn`
 
 then run the project:
 
@@ -29,5 +30,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## important!
-In the color boxes, after having selected it in the color palette, to close it you must click on the color box.
+
