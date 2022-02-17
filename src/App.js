@@ -19,6 +19,10 @@ export default function App() {
   const togglePaletaColor2 = () => {
     setShowColorPicker2((showColorPicker2) => !showColorPicker2);
   };
+  const randomColor = () => {
+    setColor1("#" + Math.floor(Math.random() * 16777215).toString(16));
+    setColor2("#" + Math.floor(Math.random() * 16777215).toString(16));
+  };
 
   return (
     <div className="content">
@@ -48,11 +52,16 @@ export default function App() {
           showColorPicker1={showColorPicker1}
           showColorPicker2={showColorPicker2}
         />
+        <div className="container-color">
+          <button className="button-random" onClick={randomColor}>
+            Random
+          </button>
+        </div>
 
         <div className="colors-picked">
-          <span style={{ color: `${color1}` }}> You picked : {color1}</span>
+          <span style={{ color: `${color1}` }}> Color : {color1}</span>
           <br></br>
-          <span style={{ color: `${color2}` }}> You picked : {color2}</span>
+          <span style={{ color: `${color2}` }}> Color: {color2}</span>
         </div>
       </div>
       <div

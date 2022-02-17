@@ -1,6 +1,6 @@
-.section-colors {
+/* .section-colors {
     position:inherit; 
-  }
+  } */
   .button-colors{
     background-color: var(--background-color); 
     border: 2px solid  var(--background-color);

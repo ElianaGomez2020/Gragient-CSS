@@ -53,6 +53,9 @@ h1 {
   font-weight: bolder;
   line-height: 2.75rem;
 }
+.container-color {
+  display: flex;
+}
 
 .colors-picked {
   margin-top: 20%;
@@ -74,4 +77,18 @@ h1 {
   .gradient {
     width: 90%;
   }
+}
+.button-random {
+  border: 2px solid var(--background-color);
+  border-radius: 6px;
+  margin-left: 4rem;
+  margin-top: 15px;
+  padding: 5px 5px 30px 5px;
+  font-size: 0.8125rem;
+  width: 7rem;
+  height: 25px;
+  line-height: 1.75rem;
+}
+.button-random:hover {
+  background-color: var(--background-color);
 }
